@@ -1,3 +1,6 @@
+#This code print all the columns of the table present in a database of postgresql with database name i have used psycog2 for the 
+#connection and the connection is done from airflow ui
+
 import psycopg2
 import logging
 from airflow import DAG
